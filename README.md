@@ -1,50 +1,88 @@
-# Welcome to your Expo app 👋
+# 📋 React Native To-Do App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A simple, clean, and intuitive **React Native To-Do application** that helps users manage their daily tasks efficiently. Built with a focus on usability, performance, and modern React Native practices.
 
-## Get started
+---
 
-1. Install dependencies
+## ✨ Features
 
-   ```bash
-   npm install
-   ```
+- ➕ Add new tasks  
+- ✏️ Edit existing tasks  
+- 🗑️ Delete tasks  
+- 📱 Clean and minimal user interface  
+- ⚡ Fast and lightweight performance  
+- 🔄 Real-time task updates  
 
-2. Start the app
+---
 
-   ```bash
-   npx expo start
-   ```
+## 🛠️ Tech Stack
 
-In the output, you'll find options to open the app in a
+- **React Native**
+- **Expo**
+- **TypeScript**
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+---
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## 🚀 Getting Started
 
-## Get a fresh project
+### Prerequisites
 
-When you're ready, run:
+Make sure you have the following installed:
 
+- Node.js  
+- npm or yarn  
+- Expo CLI  
+- Expo Go app (for mobile testing)
+
+---
+
+### Installation & Setup
+
+1. Clone the repository
 ```bash
-npm run reset-project
+git clone https://github.com/mukuljgn/react-native-todo-app.git
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+2. Navigate to the project directory
+```bash
+cd react-native-todo-app
+```
 
-## Learn more
+3. Install dependencies
+```bash
+npm install
+```
 
-To learn more about developing your project with Expo, look at the following resources:
+4. Start the Expo development server
+```bash
+npx expo start
+```
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+5. Run the app
 
-## Join the community
+- Scan the QR code using the Expo Go app on your Android or iOS device
 
-Join our community of developers creating universal apps.
+- Or press:
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+     - a to run on Android emulator
+
+     - i to run on iOS simulator (macOS only)
+
+Notes
+
+- Make sure your mobile device and computer are on the same network when using Expo Go.
+
+- If Expo CLI is not installed, you can install it using:
+```bash
+  npm install -g expo-cli
+```
+
+---
+
+### 👨‍💻 Author
+
+**Mukul Verma**
+
+### 📄 License
+
+This project is open-source and available under the **MIT License**.
